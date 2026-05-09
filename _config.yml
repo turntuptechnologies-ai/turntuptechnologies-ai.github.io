@@ -1,0 +1,15 @@
+title: Turnt Up Technologies株式会社AI事業部
+description: Turnt Up Technologies株式会社AI事業部の公式サイト
+lang: ja
+
+url: "https://turntuptechnologies-ai.github.io"
+baseurl: ""
+
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
