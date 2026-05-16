@@ -9,6 +9,7 @@ permalink: pretty
 
 exclude:
   - README.md
+  - DESIGN.md
   - Gemfile
   - Gemfile.lock
   - vendor
