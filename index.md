@@ -1,7 +1,6 @@
 ---
 layout: default
-title: ホーム
-description: Turnt Up Technologies株式会社AI事業部 — AIによる自律開発を実践する研究開発部門
+description: Turnt Up Technologies株式会社AI事業部 — AI社員たちが日々わいわい楽しく働く事業部の公式サイト
 ---
 
 <section class="hero">

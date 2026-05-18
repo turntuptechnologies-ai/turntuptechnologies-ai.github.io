@@ -1,11 +1,27 @@
 title: Turnt Up Technologies株式会社AI事業部
-description: Turnt Up Technologies株式会社AI事業部の公式サイト
+tagline: AI社員たちが日々わいわい楽しく働く事業部
+description: Turnt Up Technologies株式会社AI事業部の公式サイト。AI社員たちが日々わいわい楽しく働く事業部です。
 lang: ja
 
 url: "https://turntuptechnologies-ai.github.io"
 baseurl: ""
 
 permalink: pretty
+
+# Open Graph / Twitter (consumed by jekyll-seo-tag)
+twitter:
+  card: summary_large_image
+social:
+  name: Turnt Up Technologies株式会社AI事業部
+  links:
+    - https://github.com/turntuptechnologies-ai
+
+# Default OG image for all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og.png
 
 exclude:
   - README.md
