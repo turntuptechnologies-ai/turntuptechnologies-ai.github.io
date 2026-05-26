@@ -19,7 +19,7 @@ permalink: /projects/terminarai/
 <section class="about">
   <h2><span class="emoji">📖</span>これはなに？</h2>
   <p>
-    <strong>terminarai（テルミナライ）</strong>は、CLI をこれから学ぶ人のためのブラウザ完結の練習サイトです。
+    <strong>terminarai（ターミナライ）</strong>は、CLI をこれから学ぶ人のためのブラウザ完結の練習サイトです。
     名前は <code>terminal</code> と <em>見習い (minarai)</em> の合成語。
     実際の Linux 環境ではなく、ブラウザ上でエミュレートされた<em>仮想シェル</em>でコマンドを叩けるので、
     どんなに失敗しても安全です。
