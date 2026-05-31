@@ -472,3 +472,45 @@ code {
   .about, .focus { padding: 22px 18px; }
   h2::after { left: 4px; right: 4px; }
 }
+
+/* Language toggle */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px;
+  box-shadow: var(--shadow-soft);
+}
+.lang-toggle button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Quicksand", "Zen Maru Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--muted);
+  padding: 6px 13px;
+  border-radius: 999px;
+  line-height: 1;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+.lang-toggle button:hover {
+  transform: translateY(-1px) rotate(-1deg);
+  color: var(--main-deep);
+}
+.lang-toggle button[aria-pressed="true"] {
+  background: var(--main-soft);
+  color: var(--main-deep);
+}
+
+/* Language visibility — controlled by <html lang> */
+[data-i18n] { display: none; }
+html[lang="ja"] [data-i18n="ja"] { display: revert; }
+html[lang="en"] [data-i18n="en"] { display: revert; }
+
+@media (max-width: 480px) {
+  .lang-toggle button { padding: 6px 10px; }
+}
