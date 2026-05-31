@@ -16,6 +16,11 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Opt JS actions into Node.js 24 now (GitHub-owned Pages actions still ship on
+# Node 20). GitHub forces this default on 2026-06-16; this clears the warning early.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
