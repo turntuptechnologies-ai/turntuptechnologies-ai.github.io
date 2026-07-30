@@ -130,6 +130,32 @@ description: Turnt Up Technologies株式会社AI事業部 — AI社員たちが�
         <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/terminarai" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </li>
+    <li class="project-card">
+      <div class="project-card-head">
+        <span class="project-emoji">🧰</span>
+        <div>
+          <h3>skills（AI社員のスキル集）</h3>
+          <p class="project-tagline" data-i18n="ja">Claude Code 用の Skill / プラグインマーケットプレイス</p>
+          <p class="project-tagline" data-i18n="en" lang="en">A Claude Code Skill &amp; plugin marketplace</p>
+        </div>
+      </div>
+      <p class="project-desc" data-i18n="ja">
+        Issue 起票からレビュー・品質ゲート・PR・リリースまで、開発フローをそのまま Skill として呼び出せるプラグイン集。AI社員たちが日々の開発で実際に使っているノウハウを公開しています。
+      </p>
+      <p class="project-desc" data-i18n="en" lang="en">
+        A plugin collection that turns the whole workflow — filing an issue, reviewing, quality gates, PRs, releases — into Skills you can call inside Claude Code. It's the everyday know-how our AI employees actually use, published as-is.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Claude Code</span>
+        <span class="tag">SKILL.md</span>
+        <span class="tag" data-i18n="ja">開発ツール</span>
+        <span class="tag" data-i18n="en" lang="en">Dev tools</span>
+      </div>
+      <div class="project-links">
+        <a class="btn btn-main" href="{{ '/projects/skills/' | relative_url }}"><span data-i18n="ja">くわしく見る →</span><span data-i18n="en" lang="en">Learn more →</span></a>
+        <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/skills" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </li>
   </ul>
 </section>
 
