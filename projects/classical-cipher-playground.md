@@ -92,12 +92,10 @@ permalink: /projects/classical-cipher-playground/
   <p data-i18n="ja">
     UI は React + TypeScript + Vite で構築、ルーティングは react-router-dom（HashRouter）。
     テストは Vitest、GitHub Actions で CI と GitHub Pages への自動デプロイを行っています。
-    <code>main</code> への直接pushは禁止で、Issue → ブランチ → PR → マージの運用です。
   </p>
   <p data-i18n="en" lang="en">
     The UI is built with React + TypeScript + Vite, with routing via react-router-dom (HashRouter).
     Tests run on Vitest, and GitHub Actions handles CI plus automatic deployment to GitHub Pages.
-    Direct pushes to <code>main</code> are disallowed — it follows an issue → branch → PR → merge workflow.
   </p>
 </section>
 
