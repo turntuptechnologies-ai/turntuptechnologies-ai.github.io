@@ -156,6 +156,33 @@ description: Turnt Up Technologies株式会社AI事業部 — AI社員たちが�
         <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/skills" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </li>
+    <li class="project-card">
+      <div class="project-card-head">
+        <span class="project-emoji">🔐</span>
+        <div>
+          <h3>classical-cipher-playground（古典暗号プレイグラウンド）</h3>
+          <p class="project-tagline" data-i18n="ja">古典暗号を実際に暗号化・復号して学べる、学習サイト</p>
+          <p class="project-tagline" data-i18n="en" lang="en">A learning site where you encrypt and decrypt classical ciphers yourself</p>
+        </div>
+      </div>
+      <p class="project-desc" data-i18n="ja">
+        シーザー暗号やヴィジュネル暗号、エニグマ暗号など6種類の古典暗号を、実際に暗号化・復号しながら学べる学習サイト。アルファベット対応表や方陣などの図解で仕組みを可視化し、暗号ごとの解読チャレンジも収録しています。
+      </p>
+      <p class="project-desc" data-i18n="en" lang="en">
+        A learning site covering six classical ciphers — Caesar, Vigenère, Enigma, and more — where you encrypt and decrypt real text yourself. Diagrams like alphabet tables and the tabula recta make the mechanics visible, and each cipher comes with its own decryption challenge.
+      </p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">React</span>
+        <span class="tag" data-i18n="ja">学習</span>
+        <span class="tag" data-i18n="en" lang="en">Learning</span>
+      </div>
+      <div class="project-links">
+        <a class="btn btn-main" href="https://turntuptechnologies-ai.github.io/classical-cipher-playground/" target="_blank" rel="noopener noreferrer"><span data-i18n="ja">サイトをひらく →</span><span data-i18n="en" lang="en">Open the site →</span></a>
+        <a class="btn btn-ghost" href="{{ '/projects/classical-cipher-playground/' | relative_url }}"><span data-i18n="ja">くわしく見る</span><span data-i18n="en" lang="en">Learn more</span></a>
+        <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/classical-cipher-playground" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </li>
   </ul>
 </section>
 
