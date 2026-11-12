@@ -25,22 +25,26 @@ permalink: /projects/classical-cipher-playground/
   <h2 data-i18n="ja"><span class="emoji">📖</span>これはなに？</h2>
   <h2 data-i18n="en" lang="en"><span class="emoji">📖</span>What is it?</h2>
   <p data-i18n="ja">
-    <strong>classical-cipher-playground（古典暗号プレイグラウンド）</strong>は、紀元前1世紀の
-    <em>シーザー暗号</em>から第二次世界大戦の<em>エニグマ暗号</em>まで、コンピュータが生まれる前の時代に
+    <strong>classical-cipher-playground（古典暗号プレイグラウンド）</strong>は、古代の
+    <em>アトバシュ暗号</em>や<em>シーザー暗号</em>から第二次世界大戦の<em>エニグマ暗号</em>まで、コンピュータが生まれる前の時代に
     実際に使われていた<em>古典暗号（クラシカル・サイファー）</em>を、文章を暗号化・復号しながら体験できる学習サイトです。
+    いまは<em>18種類</em>の暗号を収録しています。
   </p>
   <p data-i18n="en" lang="en">
     <strong>classical-cipher-playground</strong> is a learning site for exploring <em>classical ciphers</em> —
-    from the 1st-century-BC <em>Caesar cipher</em> to the WWII-era <em>Enigma</em> — the kind of encryption used
+    from the ancient <em>Atbash</em> and <em>Caesar</em> ciphers to the WWII-era <em>Enigma</em> — the kind of encryption used
     long before computers existed. You encrypt and decrypt real text to see how each one actually works.
+    It currently covers <em>18 ciphers</em>.
   </p>
   <p data-i18n="ja">
     各暗号のページでは、アルファベット対応表や方陣（tabula recta）、ジグザグ図、ローター表示窓といった図解つきで
-    仕組みを視覚的に確認できます。設計から実装まで、AI社員が手がけています。
+    仕組みを視覚的に確認できます。鍵を知らない状態から暗号文を読み解く、古典的な解読方法を紹介するページもあります。
+    設計から実装まで、AI社員が手がけています。
   </p>
   <p data-i18n="en" lang="en">
     Each cipher's page comes with diagrams — alphabet correspondence tables, a tabula recta, zigzag charts,
-    rotor windows — so you can see the mechanics, not just read about them. Designed and built by our AI employees.
+    rotor windows — so you can see the mechanics, not just read about them. There is also a page on the classic
+    methods for reading a ciphertext without knowing the key. Designed and built by our AI employees.
   </p>
 </section>
 
@@ -50,24 +54,24 @@ permalink: /projects/classical-cipher-playground/
   <ul class="focus-list focus-list-2">
     <li class="card card-rose">
       <span class="card-icon">🔓</span>
-      <h3 data-i18n="ja">暗号化・復号を体験</h3>
-      <h3 data-i18n="en" lang="en">Encrypt &amp; decrypt hands-on</h3>
-      <p data-i18n="ja">各暗号のページで、実際に文章を暗号化・復号。両方向を自分の手で試せます。</p>
-      <p data-i18n="en" lang="en">Encrypt and decrypt real text on each cipher's page — try both directions yourself.</p>
+      <h3 data-i18n="ja">図解つきで暗号化・復号を体験</h3>
+      <h3 data-i18n="en" lang="en">Encrypt &amp; decrypt, with diagrams</h3>
+      <p data-i18n="ja">各暗号のページで、実際に文章を暗号化・復号。アルファベット対応表、ヴィジュネル暗号の方陣、レールフェンス暗号のジグザグ図、エニグマ暗号のローター表示窓などで仕組みが見えます。</p>
+      <p data-i18n="en" lang="en">Encrypt and decrypt real text on each cipher's page. Alphabet tables, a tabula recta for Vigenère, zigzag diagrams for rail fence, and rotor windows for Enigma make the mechanics visible.</p>
     </li>
     <li class="card card-mint">
-      <span class="card-icon">📐</span>
-      <h3 data-i18n="ja">仕組みを可視化</h3>
-      <h3 data-i18n="en" lang="en">Visualize how it works</h3>
-      <p data-i18n="ja">アルファベット対応表、ヴィジュネル暗号の方陣、レールフェンス暗号のジグザグ図、エニグマ暗号のローター表示窓を表示。</p>
-      <p data-i18n="en" lang="en">Alphabet tables, a tabula recta for Vigenère, zigzag diagrams for rail fence, and rotor windows for Enigma.</p>
+      <span class="card-icon">📜</span>
+      <h3 data-i18n="ja">18種類の暗号を収録</h3>
+      <h3 data-i18n="en" lang="en">18 ciphers, across history</h3>
+      <p data-i18n="ja">古代から第二次世界大戦まで。アトバシュ暗号・スキュタレー暗号・シーザー暗号・上杉暗号・ヴィジュネル暗号・プレイフェア暗号・ADFGVX暗号・エニグマ暗号など、換字式も転置式もそろっています。</p>
+      <p data-i18n="en" lang="en">From antiquity to WWII: Atbash, scytale, Caesar, Uesugi, Vigenère, Playfair, ADFGVX, Enigma, and more — both substitution and transposition ciphers.</p>
     </li>
     <li class="card card-lilac">
-      <span class="card-icon">📜</span>
-      <h3 data-i18n="ja">6種類の暗号を収録</h3>
-      <h3 data-i18n="en" lang="en">Six ciphers, across history</h3>
-      <p data-i18n="ja">古代ローマから第二次世界大戦まで。シーザー暗号・単一換字式暗号・ヴィジュネル暗号・レールフェンス暗号・上杉暗号・エニグマ暗号。</p>
-      <p data-i18n="en" lang="en">From ancient Rome to WWII: Caesar, monoalphabetic substitution, Vigenère, rail fence, Uesugi, and Enigma.</p>
+      <span class="card-icon">🔍</span>
+      <h3 data-i18n="ja">解読方法を学ぶ</h3>
+      <h3 data-i18n="en" lang="en">Learn how to break them</h3>
+      <p data-i18n="ja">頻度分析・総当たり攻撃・カシスキー試験・アナグラム法・既知平文攻撃の5つの手法を、暗号文を貼って試せるツールつきで解説。</p>
+      <p data-i18n="en" lang="en">Five methods — frequency analysis, brute force, Kasiski examination, anagramming, and known-plaintext attacks — each explained with a tool you can paste a ciphertext into.</p>
     </li>
     <li class="card card-rose">
       <span class="card-icon">🏆</span>

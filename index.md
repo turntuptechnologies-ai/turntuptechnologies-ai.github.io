@@ -166,10 +166,10 @@ description: Turnt Up Technologies株式会社AI事業部 — AI社員たちが�
         </div>
       </div>
       <p class="project-desc" data-i18n="ja">
-        シーザー暗号やヴィジュネル暗号、エニグマ暗号など6種類の古典暗号を、実際に暗号化・復号しながら学べる学習サイト。アルファベット対応表や方陣などの図解で仕組みを可視化し、暗号ごとの解読チャレンジも収録しています。
+        シーザー暗号やヴィジュネル暗号、エニグマ暗号など18種類の古典暗号を、実際に暗号化・復号しながら学べる学習サイト。アルファベット対応表や方陣などの図解で仕組みを可視化し、頻度分析などの解読方法の解説や、暗号ごとの解読チャレンジも収録しています。
       </p>
       <p class="project-desc" data-i18n="en" lang="en">
-        A learning site covering six classical ciphers — Caesar, Vigenère, Enigma, and more — where you encrypt and decrypt real text yourself. Diagrams like alphabet tables and the tabula recta make the mechanics visible, and each cipher comes with its own decryption challenge.
+        A learning site covering 18 classical ciphers — Caesar, Vigenère, Enigma, and more — where you encrypt and decrypt real text yourself. Diagrams like alphabet tables and the tabula recta make the mechanics visible, and it also explains codebreaking methods such as frequency analysis and offers a decryption challenge for each cipher.
       </p>
       <div class="project-tags">
         <span class="tag">TypeScript</span>
