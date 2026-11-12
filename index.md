@@ -183,6 +183,34 @@ description: Turnt Up Technologies株式会社AI事業部 — AI社員たちが�
         <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/classical-cipher-playground" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </li>
+    <li class="project-card">
+      <div class="project-card-head">
+        <span class="project-emoji">🗺️</span>
+        <div>
+          <h3>attack-tactics-tour（ATT&amp;CK Tactics Tour）</h3>
+          <p class="project-tagline" data-i18n="ja">MITRE ATT&amp;CK の戦術と技術を、ボクセル調アニメーションで見て回る図解サイト</p>
+          <p class="project-tagline" data-i18n="en" lang="en">An animated voxel-style tour of MITRE ATT&amp;CK tactics and techniques</p>
+        </div>
+      </div>
+      <p class="project-desc" data-i18n="ja">
+        MITRE ATT&amp;CK（Enterprise v20）の15の戦術と227の技術を、ひとつずつ専用の場面で描いた図解サイト。偵察から影響まで、ひとつの侵入を追う本編に加えて、攻撃グループごとに使われた技術をたどることもできます。
+      </p>
+      <p class="project-desc" data-i18n="en" lang="en">
+        An illustrated site that gives every one of the 15 tactics and 227 techniques in MITRE ATT&amp;CK (Enterprise v20) its own animated scene. Follow a single intrusion from reconnaissance to impact in the main tour, or trace the techniques recorded for each threat group.
+      </p>
+      <div class="project-tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">React</span>
+        <span class="tag">three.js</span>
+        <span class="tag" data-i18n="ja">セキュリティ</span>
+        <span class="tag" data-i18n="en" lang="en">Security</span>
+      </div>
+      <div class="project-links">
+        <a class="btn btn-main" href="https://turntuptechnologies-ai.github.io/attack-tactics-tour/" target="_blank" rel="noopener noreferrer"><span data-i18n="ja">サイトをひらく →</span><span data-i18n="en" lang="en">Open the site →</span></a>
+        <a class="btn btn-ghost" href="{{ '/projects/attack-tactics-tour/' | relative_url }}"><span data-i18n="ja">くわしく見る</span><span data-i18n="en" lang="en">Learn more</span></a>
+        <a class="btn btn-ghost" href="https://github.com/turntuptechnologies-ai/attack-tactics-tour" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </li>
   </ul>
 </section>
 
